@@ -26,7 +26,7 @@ export default function Configuracoes({ data, updateEntity }) {
   return (
     <div className="page-transition">
       <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '2rem' }}>
-        <h1 style={{ fontSize: '2rem' }}>Configurações</h1>
+        <h1 style={{ fontSize: '2rem' }}>Settings</h1>
         <button className="btn btn-primary" onClick={handleSave}><Save size={18} /> Save Changes</button>
       </div>
 

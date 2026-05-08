@@ -7,7 +7,7 @@ export default function Licencas({ data, updateEntity }) {
     <div className="page-transition">
       <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '2rem' }}>
         <div>
-          <h1 style={{ fontSize: '2rem', marginBottom: '0.5rem' }}>Licenças</h1>
+          <h1 style={{ fontSize: '2rem', marginBottom: '0.5rem' }}>Licenses</h1>
           <p className="text-muted">Manage your beat leasing options and contracts.</p>
         </div>
         <button className="btn btn-primary"><Plus size={18} /> New License</button>

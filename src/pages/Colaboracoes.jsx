@@ -6,7 +6,7 @@ export default function Colaboracoes({ data }) {
   return (
     <div className="page-transition">
       <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '2rem' }}>
-        <h1 style={{ fontSize: '2rem' }}>Colaborações</h1>
+        <h1 style={{ fontSize: '2rem' }}>Collabs</h1>
         <button className="btn btn-primary"><Plus size={18} /> New Collab</button>
       </div>
 

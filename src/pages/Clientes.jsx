@@ -13,7 +13,7 @@ export default function Clientes({ data, updateEntity }) {
   return (
     <div className="page-transition">
       <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '2rem' }}>
-        <h1 style={{ fontSize: '2rem' }}>Clientes</h1>
+        <h1 style={{ fontSize: '2rem' }}>Clients</h1>
         <button className="btn btn-primary"><Plus size={18} /> Add Client</button>
       </div>
 

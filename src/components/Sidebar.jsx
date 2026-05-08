@@ -5,12 +5,12 @@ export default function Sidebar({ onLogout, isOpen, toggleSidebar }) {
   const links = [
     { to: '/dashboard', icon: LayoutDashboard, label: 'Dashboard' },
     { to: '/beats', icon: Music, label: 'Beats' },
-    { to: '/financeiro', icon: DollarSign, label: 'Financeiro' },
-    { to: '/clientes', icon: Users, label: 'Clientes' },
-    { to: '/licencas', icon: FileCheck, label: 'Licenças' },
-    { to: '/redes-sociais', icon: Share2, label: 'Redes Sociais' },
-    { to: '/colaboracoes', icon: Handshake, label: 'Colaborações' },
-    { to: '/configuracoes', icon: Settings, label: 'Configurações' },
+    { to: '/financeiro', icon: DollarSign, label: 'Sales' },
+    { to: '/clientes', icon: Users, label: 'Clients' },
+    { to: '/licencas', icon: FileCheck, label: 'Licenses' },
+    { to: '/redes-sociais', icon: Share2, label: 'Social Media' },
+    { to: '/colaboracoes', icon: Handshake, label: 'Collabs' },
+    { to: '/configuracoes', icon: Settings, label: 'Settings' },
   ];
 
   return (
@@ -70,7 +70,7 @@ export default function Sidebar({ onLogout, isOpen, toggleSidebar }) {
       <div style={{ padding: '1.5rem', borderTop: '1px solid var(--border)' }}>
         <button className="btn btn-secondary" style={{ width: '100%', justifyContent: 'flex-start' }} onClick={onLogout}>
           <LogOut size={18} />
-          Sair
+          Logout
         </button>
       </div>
     </aside>

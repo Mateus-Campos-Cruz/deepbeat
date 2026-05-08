@@ -10,7 +10,7 @@ export default function Financeiro({ data, updateEntity }) {
   return (
     <div className="page-transition">
       <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '2rem' }}>
-        <h1 style={{ fontSize: '2rem' }}>Financeiro</h1>
+        <h1 style={{ fontSize: '2rem' }}>Sales</h1>
         <div style={{ display: 'flex', gap: '1rem' }}>
           <button className="btn btn-secondary"><Download size={18} /> Export CSV</button>
           <button className="btn btn-primary"><Plus size={18} /> New Sale</button>

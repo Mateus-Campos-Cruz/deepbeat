@@ -15,7 +15,7 @@ export default function RedesSociais({ data }) {
   return (
     <div className="page-transition">
       <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '2rem' }}>
-        <h1 style={{ fontSize: '2rem' }}>Redes Sociais</h1>
+        <h1 style={{ fontSize: '2rem' }}>Social Media</h1>
         <div style={{ display: 'flex', gap: '1rem' }}>
           <div style={{ display: 'flex', backgroundColor: 'var(--surface)', padding: '0.25rem', borderRadius: '8px' }}>
             <button className="btn" style={{ backgroundColor: 'var(--card)', boxShadow: '0 1px 3px rgba(0,0,0,0.1)' }}><Calendar size={18} /></button>

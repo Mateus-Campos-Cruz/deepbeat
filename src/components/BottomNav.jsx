@@ -5,7 +5,7 @@ export default function BottomNav({ toggleSidebar }) {
   const links = [
     { to: '/dashboard', icon: LayoutDashboard, label: 'Home' },
     { to: '/beats', icon: Music, label: 'Beats' },
-    { to: '/financeiro', icon: DollarSign, label: 'Vendas' },
+    { to: '/financeiro', icon: DollarSign, label: 'Sales' },
   ];
 
   return (
