@@ -15,13 +15,11 @@ npm start
 Acesse: http://localhost:3000
 
 🔐 Credenciais de Teste
-CampoValorE-mailadmin@deepbeat.comSenhapassword123
+
+E-mail: admin@deepbeat.com
+Senha: password123
 
 Os dados são populados automaticamente no primeiro acesso (beats, vendas, clientes e posts de demonstração).
-
-
-🗂️ Páginas
-RotaDescrição/loginAutenticação/dashboardVisão geral, métricas e gráficos/beatsCatálogo de beats (CRUD)/beats/:idDetalhes do beat/financeiroVendas, receita e licenças emitidas/clientesBase de compradores (CRUD)/licencasTipos de licença (CRUD)/colaboracoesParcerias e divisão de receita (CRUD)/redes-sociaisAgendamento de posts (CRUD)/configuracoesPerfil, preferências e dados
 
 🛠️ Stack
 
