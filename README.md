@@ -1,16 +1,53 @@
-# React + Vite
+🎧 Deep Beat
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Plataforma de gerenciamento de beats e produção musical.
 
-Currently, two official plugins are available:
+⚡ Início Rápido
+bash# Clone o repositório
+git clone https://github.com/seu-usuario/deep-beat.git
+cd deep-beat
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+# Instale as dependências
+npm install
 
-## React Compiler
+# Inicie o servidor de desenvolvimento
+npm start
+Acesse: http://localhost:3000
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+🔐 Credenciais de Teste
+CampoValorE-mailadmin@deepbeat.comSenhapassword123
 
-## Expanding the ESLint configuration
+Os dados são populados automaticamente no primeiro acesso (beats, vendas, clientes e posts de demonstração).
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+🗂️ Páginas
+RotaDescrição/loginAutenticação/dashboardVisão geral, métricas e gráficos/beatsCatálogo de beats (CRUD)/beats/:idDetalhes do beat/financeiroVendas, receita e licenças emitidas/clientesBase de compradores (CRUD)/licencasTipos de licença (CRUD)/colaboracoesParcerias e divisão de receita (CRUD)/redes-sociaisAgendamento de posts (CRUD)/configuracoesPerfil, preferências e dados
+
+🛠️ Stack
+
+React + React Router v6
+Recharts — gráficos
+Lucide React — ícones
+LocalStorage — persistência (sem backend)
+
+
+💾 Dados
+Todos os dados ficam no localStorage sob a chave deepbeat_v1. Para resetar:
+jslocalStorage.removeItem('deepbeat_v1')
+Ou via Configurações → Gerenciar Dados → Limpar todos os dados.
+
+📁 Estrutura
+src/
+├── components/     # Sidebar, Modal, DataTable, Toast...
+├── pages/          # Uma pasta por rota
+├── hooks/          # useLocalStorage, useToast
+└── App.jsx         # Rotas e layout principal
+
+🎨 Paleta
+Background #050508
+Surface #0f0f1a
+Purple #7c3aed
+Green #22c55e
+
+📄 Licença
+MIT © Deep Beat
